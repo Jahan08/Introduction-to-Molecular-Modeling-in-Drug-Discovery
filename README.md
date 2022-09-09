@@ -38,6 +38,7 @@ Scoring - Once the ligand conformations have been docked into the protein, the p
 
 An important thing to know about scoring functions, is that they ​do not​ correlate with any binding affinity measurements. While this may seem disheartening, it doesn’t mean docking scores aren’t useful. By using a rigid receptor, we are deviating too much from how this protein would behave in a wet-lab assay to provide a rank-ordering of the compounds or exact agreement with experimental binding affinities. However, docking can achieve much higher throughput than a wet-lab assay, especially if you factor in the time it takes to purify a protein, synthesize compounds, and develop an assay. Docking results can allow you to quickly triage a large compound library by allowing you to take a subset of those compounds with good docking scores and evaluate them further with more computationally expensive, but more scientifically rigorous calculations. Docking is best used to give good enrichment of a compound library
 
+
    * A simple workflow of virtual Screening
 
 First, it is critically important to prepare the files of the target and hit molecules. While you have been provided with a few prepared files in this course, this is something that needs to be done before starting any modeling work. Using our prepared protein, we generate a receptor grid and perform a docking experiment on a test case. For us in this module, our test case will be to dock the cognate ligand back into the crystal structure. If the RMSD compared to the original pose is low (such as less than 2.5 angstrom or less, depending on the size of the ligand), then you can feel confident in the docking set up and proceed to screening a larger database. If the RMSD is high, it may behoove you to return to the generate the grid stage and input new or different constraints or details of the ligand box. 
@@ -45,6 +46,18 @@ First, it is critically important to prepare the files of the target and hit mol
    Prepare the protein and ligand(s) (set constraint) -> Generate a grid (docking) -> Reality check with test case (with co-crystalized ligand) (RMSD is          low) -> Screen a larger database (otherwise repeat from constraint setting) -> Analyze the results
    
 Once you have screened a larger database, you can analyze the results using some statistical analyses such as receiver operating curve, or ROC plot
+
+# How do you know your docking model is good to apply for larger ligand libaray
+
+   * Enrichment - 
+   
+   Enrichment is essentially a high true positive rate in the top docked compound set. What we are looking for is the ability of the docking model to score known actives better than decoy compounds. In these graphs, we are evaluating how much of the docking results do we have to go through to recover all the known actives combined with decoy ligands in a compound set.
+   
+   * ROC plot - 
+   
+   An ROC curve, or Receiver Operator Characteristic curve, is the false positive rate on the x-axis versus the true positive rate on the y-axis. In a good docking experiment, performed on a retrospective set of known hits and supposed non-binders. A metric that is often used to quantify the quality of the ROC curve is the area under the curve, which is just as it sounds the area under the ROC curve. The closer to 1 this value is, the better the docking experiment was at enriching for known hits, and the more confidence you can have at taking this docking experiment and applying it to a larger series of unknowns.
+   
+*It is important to note that calculating enrichment is helpful during retrospective analyses - including model validation - and prospectively once you already have experimentally confirmed actives or inactives. Enrichment analyses cannot be done on compound libraries with no experimental data. While you could calculate the enrichment of some known actives that you docked along with your library, that is more of a retrospective validation of the quality of the model, than a prospective analysis of the quality of the virtual screen*
 
 * Module 5 : Discuss the Ligand Based Virtual Screening
 
