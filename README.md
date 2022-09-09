@@ -10,3 +10,16 @@ High-throughput virtual screens have suffered from quality issues, and because o
 
 # Lead Optimzation
 The optimization of primary hits from screening is another area where molecular modeling can be of service. Historically, lead optimization strategies have consisted of building up structure-activity relationships consisting of hundreds of compounds that take several years to synthesize and test the safety, metabolic stability, chemical stability, absorption, and solubility of these leads - all while maintaining favorable efficacy.
+
+
+# This course includes the following:
+
+1) An introduction to molecular modeling
+2) Video tutorials to familiarize you with the Maestro interface
+3) Virtual screening applications and analyses
+4) Discussion of how to ideate new molecules in 3D
+5) A hands-on project at the end of the course
+
+In this course, we will be using Maestro and LiveDesign to introduce these concepts, but many of the concepts we cover will apply to other software packages as well.
+
+We got access Maestro though Amazon Web Service or AWS
