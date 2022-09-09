@@ -23,3 +23,13 @@ The optimization of primary hits from screening is another area where molecular 
 In this course, we will be using Maestro and LiveDesign to introduce these concepts, but many of the concepts we cover will apply to other software packages as well.
 
 We got access Maestro though Amazon Web Service or AWS
+
+# Virtual Screening
+
+Methods of virtual screening can be characterized as either structure-based or ligand-based, depending on what is the primary source of information. With structure-based virtual screening, the structure of the protein or target of interest is used to inform compound design. This approach takes into account three dimensions of data when trying to bind that structure. Some examples of structure-based methods including docking as well as pharmacophore screening. More recently, some QSAR methods are able to incorporate the binding site into the model. In virtual screening, which can be both structure-based and ligand-based, an array of compounds are screened based on some identified 2D or 3D properties.
+
+Module 4 : Discuss the Structure Based Virual Screening
+
+Module 5 : Discuss the Ligand Based Virtual Screening
+
+
