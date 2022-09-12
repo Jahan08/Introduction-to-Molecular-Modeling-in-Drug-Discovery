@@ -115,7 +115,10 @@ This tutorial consists of eight sections:
 
 * Creating LiveReports and Adding Compounds
 * Adding, sorting, filtering anf coloring data
-* Adding a SAR analysis
+
+* Adding a SAR analysis: 
+Structure Activity Relationship (SAR) analysis is a powerful tool to identify trends in activity and to identify gaps in the chemical space of your lead series. To perform a SAR analysis a scaffold (i.e. a minimal common substructure) and the location R-group substituents need to be defined. The LiveReport then populates with new columns, one for each R-group position, as well as one for the scaffold. We will use this information to see if we can identify different chemotypes within our compounds and how the various R-groups attached to them impact the IC50 values.
+
 * Plotting and visualization data
 * Adding Computed models
 * creating a multi-prarameter profile (MPP)
