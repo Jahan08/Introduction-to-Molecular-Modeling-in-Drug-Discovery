@@ -92,6 +92,17 @@ Ligand based screening does not include the receptor or target structure, on the
 A pharmacophore is the ensemble of steric and electric features that is necessary to ensure the optimal supramolecular interactions with a specific biological target and to trigger or block its biological response.
 
 
-Here we completed a project of Shape-based 
+# Here we completed a project of Shape-based screening of 15000 lignad database
 
+Here we ran a CPU Shape screen to screen a database of over 15,000 ligands. This workflow can be used as a filter for more compute-intensive in silico predictions, or as part of a consensus scoring workflow along with other virtual screening methods.
+
+Here we used probe ligand from 1OIT (Cyclin-dependent kinases (CDK2)) cocrystalized ligand (imidazo[1,2-a]pyridine)
+
+   # Something about Cyclin-dependent Kinases
+   
+   Cancer has long been recognized as a disease of aberrant cellular proliferation. It is now known that proteins that regulate proliferation are frequently mutated, deleted or over-expressed in cancer cell lines, and that this leads to the deregulated growth of the tumour cell. Such proteins therefore represent potential targets for therapeutic intervention.
+
+The cyclin-dependent kinases (CDKs) are a family of serine/threonine kinases that are important in controlling entry into and transition through each phase of the cell cycle.1 Their cellular activity is tightly regulated through a number of mechanisms:2 phosphorylation by kinases and dephosphorylation by phosphatases; the binding of specific activating proteins called cyclins; and the binding of inhibitory peptides such as members of the p16INK4A and p21CIP/p27KIP families. These inhibitory peptides must be either sequestered or destroyed, and the CDK appropriately phosphorylated and bound to its cyclin, before the enzyme is fully active. The synthesis and degradation of the activating cyclins is tightly controlled; this, together with their specificity for a particular CDK partner, causes first one, and then another member of the CDK family to become active and drive progression through the cell cycle.
+
+The cyclin D1-CDK4/6-pRb signalling axis is a key mediator of growth control in normal cells and a frequent target for mutation in tumours, implicating CDK4 as an important biochemical target for small molecule inhibition of cell cycling. However, since cyclin D-dependent kinases are dispensable in cells lacking functional Rb, some tumours may be refractory to specific inhibition of CDK4. Recently, CDK2 has become an attractive target with the hypothesis that pharmacological inhibition of CDK2 might selectively kill tumour cells in which inactivation or loss of pRB serves to deregulate E2F activity.3 The development of CDK inhibitors with different selectivity profiles therefore potentially offers the opportunity to treat a wide range of tumour types. (for more: see the attached article)
 
