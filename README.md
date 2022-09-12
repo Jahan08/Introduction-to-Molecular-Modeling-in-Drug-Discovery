@@ -74,7 +74,7 @@ Once you have screened a larger database, you can analyze the results using some
    * Docking scores can be used/interpreted categorically
       * Look for trends between docked/active compounds (from the SAR) and docked/inactive compounds. A cutoff can be selected in the docking score between active and inactive compounds. Ideally, this cutoff will be based on a ROC plot constructed using docking scores for known actives and inactives (decoys). This will help to evaluate larger collections of compounds to dock.
       
-      * For more read them : https://pubs.acs.org/doi/pdf/10.1021/acs.jmedchem.0c02227      file:///Users/nj465/Downloads/Pose+Inspection+Best+Practices.pdf
+      * For more read them : https://pubs.acs.org/doi/pdf/10.1021/acs.jmedchem.0c02227  and Pose+Inspection+Best+Practices.pdf
    
 
 * Module 5 : Discuss the Ligand Based Virtual Screening
