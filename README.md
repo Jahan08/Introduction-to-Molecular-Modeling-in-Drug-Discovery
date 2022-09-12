@@ -109,4 +109,4 @@ The cyclin D1-CDK4/6-pRb signalling axis is a key mediator of growth control in 
 Here we used Maestro to conduct shape screening. See the uploaded file: Module 5B - Shape-Based Screening of a 15,000 Ligand Database
 
 
-
+# Module 6 - Ideation for Drug Discovery Projects with LiveDesign
