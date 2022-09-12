@@ -67,6 +67,16 @@ Once you have screened a larger database, you can analyze the results using some
          
   * Just as you perform positive controls in the laboratory, it is important to perform similar positive controls computationally to check that your calculation set up works well for the system or target molecule of interest. If you are unable to re-generate a pose sufficiently close to the co-crystallized ligand pose, then that is a sign that your docking model may not be not set up well for prospective use. Ideally, you would want to validate a docking model with several ligands that are known to bind to the target and that are known or expected to have the same binding mode.
 
+
+# Ligand Pose Inspection Recommendations
+
+   * Just because a compound docked doesn’t mean it will bind
+   * Docking scores can be used/interpreted categorically
+      * Look for trends between docked/active compounds (from the SAR) and docked/inactive compounds. A cutoff can be selected in the docking score between active and inactive compounds. Ideally, this cutoff will be based on a ROC plot constructed using docking scores for known actives and inactives (decoys). This will help to evaluate larger collections of compounds to dock.
+      
+      * For more read them : https://pubs.acs.org/doi/pdf/10.1021/acs.jmedchem.0c02227      file:///Users/nj465/Downloads/Pose+Inspection+Best+Practices.pdf
+   
+
 * Module 5 : Discuss the Ligand Based Virtual Screening
 
 
