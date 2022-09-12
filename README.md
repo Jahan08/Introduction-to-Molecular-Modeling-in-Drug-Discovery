@@ -59,6 +59,9 @@ Once you have screened a larger database, you can analyze the results using some
    
 *It is important to note that calculating enrichment is helpful during retrospective analyses - including model validation - and prospectively once you already have experimentally confirmed actives or inactives. Enrichment analyses cannot be done on compound libraries with no experimental data. While you could calculate the enrichment of some known actives that you docked along with your library, that is more of a retrospective validation of the quality of the model, than a prospective analysis of the quality of the virtual screen*
 
+         # Important to remember
+         * docking is helpful in determining whether a molecule fits in a binding site and can be used for enriching ligand libraries with actives, but     docking scores are not designed to correlate with any measure of binding affinity and thus should not be used for rank-ordering compounds
+
 * Module 5 : Discuss the Ligand Based Virtual Screening
 
 
