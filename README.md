@@ -79,4 +79,19 @@ Once you have screened a larger database, you can analyze the results using some
 
 * Module 5 : Discuss the Ligand Based Virtual Screening
 
+Ligand based screening does not include the receptor or target structure, on the other hand it only look into the known hit structure to identify the new hit (2D structure and 3D structure)
+ 
+   * 2D  - Fingerprint searching, 2D QSAR, 2D pharmacophore 
+   * 3D  - Shape-based, 3D QSAR , 3D pharmacophore 
+   
+   * Shape screening: hard sphere volume overlaps between active molecules and unknown HIT to assess the similarit
+   Shape screening relies on hard sphere volumes overlaps to determine shape similarity, but it also allows you to project additional property information onto the spheres. 
+   
+   * Pharmacophore: A pharmacophore is an abstract representation of interactions that usually can be seen in structure-based screening. There six types representation. And four ways to develop pharmacophore hypotheses.
+
+A pharmacophore is the ensemble of steric and electric features that is necessary to ensure the optimal supramolecular interactions with a specific biological target and to trigger or block its biological response.
+
+
+Here we completed a project of Shape-based 
+
 
