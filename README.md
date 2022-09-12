@@ -114,17 +114,25 @@ Here we used Maestro to conduct shape screening. See the uploaded file: Module 5
 This tutorial consists of eight sections:
 
 * Creating LiveReports and Adding Compounds
+
 * Adding, sorting, filtering anf coloring data
 
 * Adding a SAR analysis: 
 Structure Activity Relationship (SAR) analysis is a powerful tool to identify trends in activity and to identify gaps in the chemical space of your lead series. To perform a SAR analysis a scaffold (i.e. a minimal common substructure) and the location R-group substituents need to be defined. The LiveReport then populates with new columns, one for each R-group position, as well as one for the scaffold. We will use this information to see if we can identify different chemotypes within our compounds and how the various R-groups attached to them impact the IC50 values.
 
 * Plotting and visualization data
+
 * Adding Computed models
-* creating a multi-prarameter profile (MPP)
+
+* creating a multi-prarameter profile (MPP):
+At its heart, drug discovery is a multi-optimization problem that requires a balance among many parameters, such as potency, solubility, ADMET properties, etc. Multi-parameter profiles (MPPs) condense values for a collection of parameters into a single numeric value, i.e. the MPP score, allowing for rapid compound prioritization. The MPP score, which ranges from 0 (worst) to 1 (best), is based on the geometric mean of the parameters that comprise the MPP profile. Parameters can be computed properties (such as predicted solubility, docking scores, etc.), assay values (such as in vitro or in vivo potency, solubility, etc.) or a combination of the two. To create an MPP, you must define the following: (1) the parameters, (2) the value distribution type for each parameter and (3) the range of acceptable values for each parameter. In this section, we will create a simple “drug-likeness” MPP based on three calculated properties. This can help quickly triage new ligand ideas and condense the amount of properties to look at for a compound.
+
 * Using freeform columns (FFC) for compound progression
+
 * Creating a form for data drilldown
 
 For more detail see the attached file : Module 6C - Ideation for Drug Discovery Projects 
+
+# Module 7 - In this case study we tried to maintain or even improve potency of hit molecules against VEGFR-2 (responsible for glioblastoma multiforme) while improving physicochemical properties
 
 
