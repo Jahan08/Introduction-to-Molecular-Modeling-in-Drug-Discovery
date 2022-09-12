@@ -110,3 +110,18 @@ Here we used Maestro to conduct shape screening. See the uploaded file: Module 5
 
 
 # Module 6 - Ideation for Drug Discovery Projects with LiveDesign
+
+This tutorial consists of eight sections:
+
+* Creating LiveReports and Adding Compounds
+* Adding, sorting, filtering anf coloring data
+* Adding a SAR analysis
+* Plotting and visualization data
+* Adding Computed models
+* creating a multi-prarameter profile (MPP)
+* Using freeform columns (FFC) for compound progression
+* Creating a form for data drilldown
+
+For more detail see the attached file : Module 6C - Ideation for Drug Discovery Projects 
+
+
