@@ -153,6 +153,37 @@ this activation leads to different effects between VEGFR1 and VEGFR2. This is in
 
 Let’s zoom in one step further to the chemistry behind this signalling and take a look at the Sn2 mechanism of phosphate transfer. In the kinase active site, amino acids coordinate the alpha, beta, and gamma phosphates either directly or via magnesium. The substrate to be phosphorylated complexes in the active site so a nucleophilic attack occurs at the gamma phosphate, leading to the formation of ADP and the phosphorylated substrate. For VEGFR-2, an example of a substrate is phosphoinositide 3-kinase, which is a lipid kinase important in angiogenesis. This is just one example in a web of kinase interactions that proceed after VEGFR2 activation. 
 
+# Important Terms to Understand Kinases Better
+
+* Activation loop: The loop of a kinase that lies between the N-terminal and C-terminal lobes of the kinase and, when phosphorylated, enables a conformational change in the loop to activate the kinase.
+
+* ATP: Adenosine triphosphate. ATP is an adenosine molecule bound to three phosphates that drive many of the energetic pathways of cells.
+
+* C-terminal lobe: The region in kinases that is most C-terminal and consists of approximately 180 amino acids on average. The cleft between this lobe and the N-terminal lobe is where the ATP binding cleft sits.
+
+* DFG motif: The aspartic acid, phenylalanine, and glycine that are found in sequence on the N-terminal end of the activation loop in kinases. The phenylalanine of this motif can assume either the DFG-in or DFG-out structure in the active or inactive states of the kinase, respectively.
+
+* Dimer: A molecular complex consisting of two molecules of the same type (e.g. two proteins) that interact in quaternary structure.
+Immunoglobulin domain: A type of protein domain that consists of a 2-layer sandwich of 7-9 antiparallel β-strands arranged in two β-sheets with a Greek key topology, consisting of about 125 amino acids. These domains are commonly found in antibodies.
+
+* Juxtamembrane domain: A disordered domain in receptor tyrosine kinases that lies in sequence between the transmembrane helix and the kinase domain.
+
+* Kinase: An enzyme that transfers a phosphate group from a high energy metabolite, like ATP, to a target structure. These types of enzymes represent one of the most researched protein classes in drug design.
+
+* N-terminal lobe: The region in kinases that is nearest the N-terminus and consists of approximately 80 amino acids. The cleft between this lobe and the C-terminal lobe is where the ATP binding site is located.
+
+* P-loop: The beta-loop-beta domain in the N-terminal lobe that borders the active-site of kinases.
+Sequence Viewer: A region in the Maestro interface below the Workspace that contains the sequence of a protein within the Workspace in one-letter code. This can be toggled on and off by clicking the + in the Workspace Configuration Toolbar in the bottom right corner.
+
+* Serine: An amino acid with a hydroxyl moiety attached to the beta carbon in the side chain. This is the site of phosphorylation in serine kinases.
+Threonine: An amino acid with a methyl and hydroxyl moiety attached to the beta carbon in the side chain. This is the site of phosphorylation in threonine kinases.
+
+* Transautophosphorylation: When another kinase of the same type (in our case, one of the monomers in the VEGFR2 kinase dimer) provides the active site that carries out the kinase chemistry.
+
+* Tyrosine: An amino acid with a phenol side chain attached to the beta carbon. This is the site of phosphorylation in tyrosine kinases.
+Vascular Endothelial Growth Factor Receptor 2 (VEGFR2): A receptor tyrosine protein kinase that was one of the first kinase drug targets. To learn more about VEGFR2, check out the UniProt page. For more detailed information about the history of VEGFR2 in drug discovery, see this PNAS article.(uploaded)
+
+
 # Hands-on works
 
 Here we used 3B8R and 2QU5 (Chain A) as our target VEGFR-2 kinases
