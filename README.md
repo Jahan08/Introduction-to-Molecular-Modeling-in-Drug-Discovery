@@ -181,7 +181,14 @@ Threonine: An amino acid with a methyl and hydroxyl moiety attached to the beta 
 * Transautophosphorylation: When another kinase of the same type (in our case, one of the monomers in the VEGFR2 kinase dimer) provides the active site that carries out the kinase chemistry.
 
 * Tyrosine: An amino acid with a phenol side chain attached to the beta carbon. This is the site of phosphorylation in tyrosine kinases.
-Vascular Endothelial Growth Factor Receptor 2 (VEGFR2): A receptor tyrosine protein kinase that was one of the first kinase drug targets. To learn more about VEGFR2, check out the UniProt page. For more detailed information about the history of VEGFR2 in drug discovery, see this PNAS article.(uploaded)
+Vascular Endothelial Growth Factor Receptor 2 (VEGFR2): A receptor tyrosine protein kinase that was one of the first kinase drug targets. To learn more about VEGFR2 (https://en.wikipedia.org/wiki/VEGF_receptor), check out the UniProt page (https://www.uniprot.org/uniprotkb/P35968/entry). 
+
+* Angiogenesis: Angiogenesis, the formation of new blood vessels from existing vasculature, is a normal physiological event that occurs
+during embryonic growth, wound healing and the menstrual cycle. Abnormal regulation of angiogenesis has been implicated in the pathogenesis of several disorders including diabetic retinopathy,1 rheumatoid arthritis,2 age-related macular degeneration,3 and cancer.4,5 As angiogenesis is required for tumor
+growth and metastasis, the concept of limiting the growth of a solid tumor by restricting the blood supply has been evaluated in human cancer and has proven successful.
+
+Vascular endothelial growth factor (VEGFa) is a known promoter of angiogenesis, and the increased expression of VEGF has been implicated in tumor growth and metastasis.4,5 VEGF signaling through its receptor tyrosine kinase VEGFR-2 (or KDR, kinase insert domain receptor) promotes several events
+required for the formation of new blood vessels, such as endothelial cell survival, proliferation, migration, and vascular permeability. Inhibition of the VEGF signaling pathway has become a valuable approach in the treatment of cancers.
 
 
 # Hands-on works
@@ -189,8 +196,7 @@ Vascular Endothelial Growth Factor Receptor 2 (VEGFR2): A receptor tyrosine prot
 Here we used 3B8R and 2QU5 (Chain A) as our target VEGFR-2 kinases
 
 * 3B8R is DFG-in (conformation) and 2QU5 is DFG-out (conformation)
-* In the case of 2QU5 DFG motif, which lies in sequence just N-terminal to the activation loop and contains residues numbered 1046 to 1048
+* DFG motif, which lies in sequence just N-terminal to the activation loop and contains residues numbered 1046 to 1048
 * 3B8R is missing the activation loop and what is known as the C-helix is oriented slightly differently compared to 2QU5
-
 * In 3B8R, the DFG motif has the phenylalanine facing in towards the center of the pocket between the N-lobe and C-lobe. In contrast, 2QU5 has the phenylalanine of the DFG motif facing much closer to the surface of the active site. So we can determine that 2QU5 is in the inactive DFG-out state while 3B8R is in the active DFG-in state. 
-
+* DFG-in to DFG-out: This conformational change inhibits the ability of the kinase to bind ATP productively and accommodates the binding of an appropriately substituted inhibitor into an extended lipophilic pocket
