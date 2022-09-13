@@ -144,5 +144,48 @@ categories refer to the residues of the protein that, once phosphorylated, confe
 N-terminal lobe in gray and the C-terminal lobe in green that is phosphorylated. Once phosphorylated, this loop changes conformation and alters the structure slightly of the binding site.
 
 
+On the N-terminal side of the activation loop is what is known as the DFG motif. The orientation of the motif is extremely important in kinase drug discovery and is something we will come back to later in this video. During the binding of ATP, the space between the N-terminal lobe and C-terminal lobe decreases, protecting ATP’s gamma phosphate from water and increasing the chance that the substrate is phosphorylated. Let’s take a closer look at the mechanism of a receptor tyrosine protein kinase, as this is the type of protein kinase we will be studying and targeting with molecular modeling approaches in this case study.
+
+In the beginning of what is known as a cell-signalling cascade, VEGF binds to the N-terminal extracellular domain of the VEGFR, which consists of seven immunoglobin-like motifs. A single transmembrane alpha helix traverses the membrane and right on the intracellular side of the membrane is known as the juxtamembrane domain. This is then followed in sequence by the kinase domain and C-terminus.
+
+Once VEGF binds to the extracellular domain...
+
+...VEGFRs dimerize, leading to a conformational change that is transmitted across the membrane. This conformational change leads to activation.
+
+Here, activation means phosphorylation of tyrosines in the juxtamembrane domain,...
+Slide 11
+...the activation loop of the kinase domain,...
+Slide 12
+...and the c-terminal domain. We will come back to why this phosphorylation leads to activation in a moment.
+       
+ Interestingly, this activation leads to different effects between VEGFR1 and VEGFR2. This is in part because VEGFR2 is kinase activating, whereas VEGFR1 is kinase impaired, which means it cannot catalyze the transfer of phosphate from ATP to a target. Instead, VEGFR1 undergoes a conformational change which leads to binding of adaptor proteins which then phosphorylates other downstream molecules.
+In contrast, for VEGFR2, activity starts on the paired monomer of the dimer, leading to what is known as transphosphorylation. In VEGFR2, phosphorylation that occurs in the activation loop between the N-terminal domain and C-terminal domain of the protein, orients the loop away from the active site,...
+Slide 13
+...enabling the kinase domain to bind ATP and magnesium and efficiently phosphorylate substrates.
+Phosphorylation of residues in the juxtamembrane domain and carboxyl terminus also plays a role, as shown by studies that have mutated tyrosine to phenylalanine.
+Slide 14
+Let’s zoom in one step further to the chemistry behind this signalling and take a look at the Sn2 mechanism of phosphate transfer. In the kinase active site, amino acids coordinate the alpha, beta, and gamma phosphates either directly or via magnesium.
+Slide 15
+The substrate to be phosphorylated complexes in the active site so a nucleophilic attack occurs at the gamma phosphate, leading to the formation of ADP and the phosphorylated substrate.
+Slide 16
+For VEGFR2, an example of a substrate is phosphoinositide 3-kinase, which is a lipid kinase important in angiogenesis. This is just one example in a web of kinase interactions that proceed after VEGFR2 activation. Let’s head over to Maestro to take a closer look at a VEGFR2 structure.
+Maestro
+Let’s load two VEGFR2 structures into Maestro. Go to File > Get PDB and load in 3B8R and 2QU5. Under Chain, type A. We won’t worry about preparing these structures as we will only be using them for visualization. Our reasons for loading these two structures has to do with their conformations, specifically the DFG-in versus DFG-out conformation. It can be confusing to understand what this means unless you see for yourself and interact with the structures in your Workspace. So, follow along with me and open a new Maestro project if you haven’t done so already. Don’t forget to save this as a new project!
+     
+ Now before we do anything we can align these structures so that we can easily compare the conformational differences between the structures. Make sure both structures are included, then go to Tasks and search for align. Select the Protein Structure Alignment option. This is a tool we are going to use in the case study to identify the best structures of our target to proceed within structure-based drug discovery. For now, let’s set the reference residues to ‘all’ and click Align. Fantastic, except the Workspace looks pretty cluttered. Let’s show the protein structure as ribbons and the ligand as tubes by going to Presets and selecting BioLuminate Default. That is much better! So we are going to do a few things to further modify the view of our proteins in the workspace: (1) color the N-terminal and C-terminal lobes white and green respectively, (2) color the activation loops of the kinase in yellow, (3) then will show the DFG residues for VEGFR kinase, and (4) finally we will look at the bound molecules to see where they are positioned relative to DFG motif.
+With the N-terminal and C-terminal lobes we are going to use the sequence viewer to identify the domains. Let’s start with 3B8R so include 3B8R in the Workspace. If your sequence viewer is not below your Workspace, click on the plus sign in the bottom right corner of Maestro. Then toggle on the sequence viewer. The N-terminal lobe ends with lysine 920. If you hover your mouse over the residues in the sequence viewer, the residue numbers are shown in the tooltip. Click and drag from K920 all the way to the beginning of the sequence. This will select the N-terminal lobe of the kinase domain in the 3D Workspace as well as in the sequence viewer. Now that these residues are selected, edit the color of these residues by coming up to style, clicking on ribbons, and selecting a constant color of white for these residues. Pause the video to try the same thing on your own for 2QU5.
+Let’s apply similar steps to more easily identify the activation loop and C-terminal lobe. Go back to the sequence viewer and find cysteine 1045. This time, click and drag to select through glutamate 1075. Change the color of the ribbon of these residues to yellow. Pause here and repeat this for 2QU5. We will leave the C-terminal lobe green. Now we have the different portions of our structures visually highlighted.
+The last visual adjustment we are going to make to our proteins is the representation of the DFG motif. For the last time in this module, let’s come back to the sequence viewer and identify the DFG motif, which lies in sequence just N-terminal to the activation loop and contains residues numbered 1046 to 1048. Let’s show the residues of the DFG motif and color the carbons of the 3B8R DFG motif in cyan and the carbons of the 2QU5 DFG motif in orange. Pause the video here until you are caught up.
+Let’s inspect our work. Change the view to tile, and then zoom out to inspect the differences in protein structure. 3B8R is missing the activation loop and what is known as the C-helix is oriented slightly differently compared to 2QU5.
+Let’s zoom into the ligand to see what this DFG-in and DFG out really means. You can see that in 3B8R, the DFG motif has the phenylalanine facing in towards the center of the pocket between the N-lobe and C-lobe. In contrast, 2QU5 has the phenylalanine of the DFG motif facing much closer to the surface of the active site. So we can determine that 2QU5 is in the inactive DFG-out state while 3B8R is in the active DFG-in state. In any modeling task, it is important to make sure you are using a structure that is appropriate for the research question
+
+you are asking. For example, make sure you are using the correct conformational state of a protein to dock ligands into for a virtual screen.
+Slide 17
+Great job! You learned about the different categories of kinases,...
+Slide 18
+...the mechanism of kinases,...
+Slide 19
+...and key structural motifs in the target we are going to study in this chapter and the next, VEGFR. In the next modules you will read a short publication on the Ins and Outs of Kinase DFG motifs and then read about the discovery of pazopanib against VEGFR kinases. Enjoy!
+
 
 
