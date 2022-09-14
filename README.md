@@ -201,7 +201,7 @@ Here we used 3B8R, 4ASD, 6GQQ and 2QU5 (Chain A) as our target VEGFR-2 kinases
 * In 3B8R, the DFG motif has the phenylalanine facing in towards the center of the pocket between the N-lobe and C-lobe. In contrast, 2QU5 has the phenylalanine of the DFG motif facing much closer to the surface of the active site. So we can determine that 2QU5 is in the inactive DFG-out state while 3B8R is in the active DFG-in state. 
 * DFG-in to DFG-out: This conformational change inhibits the ability of the kinase to bind ATP productively and accommodates the binding of an appropriately substituted inhibitor into an extended lipophilic pocket
 
-## Testing the docking model with docking cognate ligands
+## Part-I: Testing the docking model with docking cognate ligands
 
 * 4ASD - Kinase domain with juxtamembrane domain bound to # Sorafenib
 * 6GQQ - Kinase domain bound to # AZD3299
@@ -215,13 +215,48 @@ We evaluated different docking models using the prepared and aligned cognate lig
 
 Since both the wet and dry grids produced ligand poses that agree well with the known crystal structure pose, the presence of waters did not result in better docking results for the cognate ligands. Since we know that Glide uses a rigid receptor and would treat waters as part of the receptor, we will continue using only the dry grids to avoid the possibility that the waters in the wet grids may create artificial clashes when screening additional. ligands
 
-## Docking with HIT+Decoy series of ligands
+## Part-II: Docking with HIT+Decoy series of ligands
 
 In this part of the case study, we have been provided with a hit series of ligands and will use the same dry (that do not contain waters) grid files for docking for each of your three VEGFR2 crystal structures.
 
 * we prepared the Hit Series of ligands using the same LigPrep settings as the cognate ligands
-* As we have confirmed that our docking set up works well for known binders, let’s test each receptor grid to see if one gives better enrichment results than the others. we used a pre-generated file of ligands which combines the Hit Series with 160 unique VEGFR2 decoy structures from the DUD-E database. This file has already been prepared using LigPrep and contains 262 structures. we can find the Enrichment Calculator in Tasks by either searching for “enrichment” or navigating to Receptor-Based Virtual Screening > Enrichment Calculator.
+* As we have confirmed that our docking set up works well for known binders, let’s test each receptor grid to see if one gives better enrichment results than the others. we used a pre-generated file of ligands which combines the Hit Series with 160 unique VEGFR2 decoy structures from the DUD-E (http://dude.docking.org/) database. This file has already been prepared using LigPrep and contains 262 structures. we can find the Enrichment Calculator in Tasks by either searching for “enrichment” or navigating to Receptor-Based Virtual Screening > Enrichment Calculator.
 * Dock the prepared Hit Series into the dry 2UQ5 grid and repeat for the dry 4ASD and 6GQQ grids (dry)
 * Then we compared docking and Glide gscores
 
 This analysis helped us determine which grid you would like to use when docking in LiveDesign in the next part of the Case Study.
+
+## Part-III: Organize SAR Analysis Based on the results from part II
+
+* We login LiveDesin and choose VEGFR2 projects and open Hit series
+* We added QikProp (most important of which being the No.of Violations of Lipniski Rule of Five: https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five)
+* Then we added the docking model(s) that you liked best from Part II
+* Add Schrödinger Quick Properties to your LiveReport
+* Create a scatter plot to visualize the relationship between:
+      Molar Refractivity (MR)
+      Ki
+      Polar Surface Area (PSA)
+      AlogP
+ * Which of the hit series compounds have the best properties? Add in a Multi-Parameter Profile if you find this easier than using the scatter plot.
+ * Then, we used what we have learned to construct a SAR to help with designing new ligands.
+ * Open the SAR analysis tool
+
+ * Create the SAR scaffold to the left
+ * Create a Scatter Plot where:
+      y = R1
+      x = R2
+      color by AlogP
+      size by Ki
+ * Analyze the contribution of each R group to inhibition of VEGFR2
+
+
+ * Create another Scatter Plot where:
+
+      y = R1
+      x = R3
+      color by PSA
+   size by Ki
+* Analyze the effect of each R group on the ligands
+
+
+ 
