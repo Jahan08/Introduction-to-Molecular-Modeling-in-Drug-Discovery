@@ -195,7 +195,7 @@ required for the formation of new blood vessels, such as endothelial cell surviv
 
 Here we used 3B8R, 4ASD, 6GQQ and 2QU5 (Chain A) as our target VEGFR-2 kinases
 
-* 3B8R is DFG-in (conformation) and 2QU5 is DFG-out (conformation)
+* 3B8R is in DFG-in conformation (inactive) and 2QU5 is in DFG-out conformation (active)
 * DFG motif, which lies in sequence just N-terminal to the activation loop and contains residues numbered 1046 to 1048
 * 3B8R is missing the activation loop and what is known as the C-helix is oriented slightly differently compared to 2QU5
 * In 3B8R, the DFG motif has the phenylalanine facing in towards the center of the pocket between the N-lobe and C-lobe. In contrast, 2QU5 has the phenylalanine of the DFG motif facing much closer to the surface of the active site. So we can determine that 2QU5 is in the inactive DFG-out state while 3B8R is in the active DFG-in state. 
@@ -204,3 +204,11 @@ Here we used 3B8R, 4ASD, 6GQQ and 2QU5 (Chain A) as our target VEGFR-2 kinases
 * 4ASD - Kinase domain with juxtamembrane domain bound to # Sorafenib
 * 6GQQ - Kinase domain bound to # AZD3299
 * 2QU5 - KInase domain with activation loop missing bound to a # benzimiazole inhibitor
+
+Here we prepared the three cognate ligands, prepared two types of grids (wet and dry) for three traget kinase (total 6 receptor grids to dock)
+
+We evaluated different docking models using the prepared and aligned cognate ligands. You have been provided with grid files for docking that contain some waters from the crystal structures (wet) and grids that do not contain waters (dry) for each of your three VEGFR2 crystal structures
+
+# Comments
+
+Since both the wet and dry grids produced ligand poses that agree well with the known crystal structure pose, the presence of waters did not result in better docking results for the cognate ligands. Since we know that Glide uses a rigid receptor and would treat waters as part of the receptor, we will continue using only the dry grids to avoid the possibility that the waters in the wet grids may create artificial clashes when screening additional. ligands
