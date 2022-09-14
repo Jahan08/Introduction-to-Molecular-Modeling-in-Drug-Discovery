@@ -209,6 +209,6 @@ Here we prepared the three cognate ligands, prepared two types of grids (wet and
 
 We evaluated different docking models using the prepared and aligned cognate ligands. You have been provided with grid files for docking that contain some waters from the crystal structures (wet) and grids that do not contain waters (dry) for each of your three VEGFR2 crystal structures
 
-# Comments
+# Comments on docking models
 
 Since both the wet and dry grids produced ligand poses that agree well with the known crystal structure pose, the presence of waters did not result in better docking results for the cognate ligands. Since we know that Glide uses a rigid receptor and would treat waters as part of the receptor, we will continue using only the dry grids to avoid the possibility that the waters in the wet grids may create artificial clashes when screening additional. ligands
