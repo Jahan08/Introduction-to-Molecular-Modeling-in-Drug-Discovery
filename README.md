@@ -258,5 +258,15 @@ This analysis helped us determine which grid you would like to use when docking 
    size by Ki
 * Analyze the effect of each R group on the ligands
 
+## Part-IV: Ideation of new Ligands
+   
+   * we can add new ligand ideas by changing R1, R2, R3
+   * And then Dock them to our docking models
+         * Compare docking scores
+         * Compare  Quick Properties
+         * Compare MPP scores
+         * Compare interaction
+
+
 
  
