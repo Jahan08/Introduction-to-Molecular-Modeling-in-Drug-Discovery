@@ -266,6 +266,13 @@ This analysis helped us determine which grid you would like to use when docking 
          * Compare  Quick Properties
          * Compare MPP scores
          * Compare interaction
+         
+ # Key Points From Module 7:
+ 
+ * Structure differences btween crystals of the same receptor were important to consider when plan ning virtual screening
+ * Shape-based and structure-based virtual screens resulted in comparable enrichment
+ * Hits that are different from a crystal strcuture ligand usually do not return a docking score that correlates with binding affinity
+ * Validating screening methods is very important
 
 
 
