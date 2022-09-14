@@ -201,6 +201,8 @@ Here we used 3B8R, 4ASD, 6GQQ and 2QU5 (Chain A) as our target VEGFR-2 kinases
 * In 3B8R, the DFG motif has the phenylalanine facing in towards the center of the pocket between the N-lobe and C-lobe. In contrast, 2QU5 has the phenylalanine of the DFG motif facing much closer to the surface of the active site. So we can determine that 2QU5 is in the inactive DFG-out state while 3B8R is in the active DFG-in state. 
 * DFG-in to DFG-out: This conformational change inhibits the ability of the kinase to bind ATP productively and accommodates the binding of an appropriately substituted inhibitor into an extended lipophilic pocket
 
+## Testing the docking model with docking cognate ligands
+
 * 4ASD - Kinase domain with juxtamembrane domain bound to # Sorafenib
 * 6GQQ - Kinase domain bound to # AZD3299
 * 2QU5 - KInase domain with activation loop missing bound to a # benzimiazole inhibitor
