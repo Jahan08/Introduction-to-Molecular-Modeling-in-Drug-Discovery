@@ -137,7 +137,9 @@ For more detail see the attached file : Module 6C - Ideation for Drug Discovery 
 
 VEGFR2 represents one of the first tragets of structure-based drug design. We improved potency of compounds starting from a hit series against VEGFR2 while optimizing predicted and measured drug properties. For that we created a new LiveReport in LiveDesign and used prepared VEGFR2 protein strcutures and grid files to perform various analyses.
 
-![Alt text](https://github.com/Jahan08/Amber-tutorial/blob/main/m2_setup.png "M2_IXO")
+![Alt text](https://github.com/Jahan08/Introduction-to-Molecular-Modeling-in-Drug-Discovery-Maestro-LiveDesign-/blob/main/Pic2.png "Kinase Mechanism")
+
+![Alt text](https://github.com/Jahan08/Introduction-to-Molecular-Modeling-in-Drug-Discovery-Maestro-LiveDesign-/blob/main/Pic1.png "VEGFR2")
 
 * Kinases: Kinases coordinate the transfer of a phosphate, from a high energy molecule, like ATP to a substrate to affect a downstream change in the cell. Kinases are typically categorized based on what their substrates are. There are protein kinases, lipid kinases, carbohydrate kinases, and even small molecule kinases which help regulate the storage of energy in our cells. The majority of kinase drug targets fall under the category of protein kinases. 
 
