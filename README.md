@@ -225,7 +225,7 @@ In this part of the case study, we have been provided with a hit series of ligan
 
 * we prepared the Hit Series of ligands using the same LigPrep settings as the cognate ligands
 * As we have confirmed that our docking set up works well for known binders, let’s test each receptor grid to see if one gives better enrichment results than the others. we used a pre-generated file of ligands which combines the Hit Series with 160 unique VEGFR2 decoy structures from the DUD-E (http://dude.docking.org/) database. This file has already been prepared using LigPrep and contains 262 structures. we can find the Enrichment Calculator in Tasks by either searching for “enrichment” or navigating to Receptor-Based Virtual Screening > Enrichment Calculator.
-* Dock the prepared Hit Series into the dry 2UQ5 grid and repeat for the dry 4ASD and 6GQQ grids (dry)
+* Dock the prepared Hit Series into the dry 2QU5 grid and repeat for the dry 4ASD and 6GQQ grids (dry)
 * Then we compared docking and Glide gscores
 
 This analysis helped us determine which grid you would like to use when docking in LiveDesign in the next part of the Case Study.
