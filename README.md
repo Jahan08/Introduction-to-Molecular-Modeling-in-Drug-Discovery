@@ -199,7 +199,7 @@ required for the formation of new blood vessels, such as endothelial cell surviv
 
 Here we used 3B8R, 4ASD, 6GQQ and 2QU5 (Chain A) as our target VEGFR-2 kinases
 
-* 3B8R is in DFG-in conformation (inactive) and 2QU5 is in DFG-out conformation (active)
+* 3B8R is in DFG-in conformation (active) and 2QU5 is in DFG-out conformation (inactive)
 * DFG motif, which lies in sequence just N-terminal to the activation loop and contains residues numbered 1046 to 1048
 * 3B8R is missing the activation loop and what is known as the C-helix is oriented slightly differently compared to 2QU5
 * In 3B8R, the DFG motif has the phenylalanine facing in towards the center of the pocket between the N-lobe and C-lobe. In contrast, 2QU5 has the phenylalanine of the DFG motif facing much closer to the surface of the active site. So we can determine that 2QU5 is in the inactive DFG-out state while 3B8R is in the active DFG-in state. 
