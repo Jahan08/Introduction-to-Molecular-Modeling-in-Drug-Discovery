@@ -137,6 +137,8 @@ For more detail see the attached file : Module 6C - Ideation for Drug Discovery 
 
 VEGFR2 represents one of the first tragets of structure-based drug design. We improved potency of compounds starting from a hit series against VEGFR2 while optimizing predicted and measured drug properties. For that we created a new LiveReport in LiveDesign and used prepared VEGFR2 protein strcutures and grid files to perform various analyses.
 
+![Alt text](https://github.com/Jahan08/Amber-tutorial/blob/main/m2_setup.png "M2_IXO")
+
 * Kinases: Kinases coordinate the transfer of a phosphate, from a high energy molecule, like ATP to a substrate to affect a downstream change in the cell. Kinases are typically categorized based on what their substrates are. There are protein kinases, lipid kinases, carbohydrate kinases, and even small molecule kinases which help regulate the storage of energy in our cells. The majority of kinase drug targets fall under the category of protein kinases. 
 
 * Mechanism of Protein Kinases:  Protein kinases can be further broken down into tyrosine, threonine, and serine kinases. These categories refer to the residues of the protein that, once phosphorylated, confers a conformational change in the protein structure that activates the kinase. Often times, these residues are located in what is known as the activation loop. This is a loop between the N-terminal lobe in gray and the C-terminal lobe in green that is phosphorylated. Once phosphorylated, this loop changes conformation and alters the structure slightly of the binding site.
